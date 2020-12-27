@@ -1,0 +1,32 @@
+{
+  "name": "master-bot",
+  "version": "1.0.0",
+  "description": "a discord music bot with guild , gifs and misc commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nir Gal",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/form-data": "^3.0.1",
+    "@discordjs/opus": "^0.3.3",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^2.7.0",
+    "iso-639-1": "^2.1.0",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "ytdl-core": "^4.1.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1"
+  }
+}
